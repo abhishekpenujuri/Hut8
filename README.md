@@ -16,7 +16,7 @@ Crypto Profit Calculator
 
 Instructions on how to install and set up the project.
 
-the backend applications will be running on: http://localhost:8000/
+the backend applications will be running on: http://localhost:8000/docs
 
 ```bash
 cd CalculatorBackend

@@ -25,7 +25,7 @@ def get_network_hash_rate():
     url = 'https://2ff50fee-4d9b-4870-88cc-9417959b5f60.mock.pstmn.io/network-info'
     result = requests.get(url).json()
     # print(result)
-    network_hash_rate = result['networkHashRate']
+    network_hash_rate = result['networkHashRate'] * 1000
     print(f"Network Hash Rate is {network_hash_rate}")
     return network_hash_rate
 
